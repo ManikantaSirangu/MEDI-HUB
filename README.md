@@ -44,3 +44,18 @@ npm install express
 Hurray 🥳, you successfully installed the project in your local machine 🎉.  
   <br> 
   🚨 **To run the project you must have a MongoDB Atlas Database link** 
+## Screen shots of the Application 
+![image]()
+
+
+![image]()
+
+
+![image]()
+  
+## Loved the project 
+  
+  If you found the project interesting then please do give this project a star ⭐. 
+  <br> <br> 
+   <p align="center" width="100%">
+   Made  by Manikanta  
