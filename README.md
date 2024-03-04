@@ -48,10 +48,10 @@ Hurray 🥳, you successfully installed the project in your local machine 🎉.
 ![image](https://github.com/ManikantaSirangu/MEDI-HUB/blob/main/projectpics/home.png)
 
 
-![image]()
+![image](https://github.com/ManikantaSirangu/MEDI-HUB/blob/main/projectpics/login.png)
 
 
-![image]()
+![image](https://github.com/ManikantaSirangu/MEDI-HUB/blob/main/projectpics/bookedappointments.png)
   
 ## Loved the project 
   
