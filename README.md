@@ -45,7 +45,7 @@ Hurray 🥳, you successfully installed the project in your local machine 🎉.
   <br> 
   🚨 **To run the project you must have a MongoDB Atlas Database link** 
 ## Screen shots of the Application 
-![image]()
+![image](https://github.com/ManikantaSirangu/MEDI-HUB/blob/main/projectpics/home.png)
 
 
 ![image]()
