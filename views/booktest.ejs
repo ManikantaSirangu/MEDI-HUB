@@ -1,0 +1,72 @@
+<%- include("partials/loggedinheader") -%>
+
+
+
+<section id="appointment" class="appointment section-bg">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Book a Test</h2>
+      </div>
+      <div class="section-title">
+        <h2>Book a Test</h2>
+      </div>
+
+      <form action="/booktest" method="POST" role="form" class="php-email-form">
+        <div class="row">
+          <div class="col-md-6 form-group mt-3">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Patient Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-6 form-group mt-3">
+            <input type="age" class="form-control" name="age" id="email" placeholder="Patient's age" data-rule="minlen:1" data-msg="Please enter a valid age">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-6 form-group mt-3">
+            <select name="gender" id="department" class="form-select">
+              <option value="">Gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Others">Others</option>
+            </select>
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-6 form-group mt-3">
+            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-6 form-group mt-3">
+            <select name="hospital" id="department" class="form-select">
+              <option value="">Select Hospital</option>
+              <option value="Apollo">Apollo</option>
+              <option value="Yashodha">Yashodha</option>
+            </select>
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-6 form-group mt-3">
+            <input type="text" name="testname" class="form-control" id="name" placeholder="Type of Test" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+        <div class="col-md-6 form-group mt-3 ">
+            <input class="form-control" type="date" name="date" id="phone" placeholder="Appointment Date">
+            <div class="validate"></div>
+          </div>
+        <div class="col-md-6 form-group mt-3 ">
+            <input type="time" class="form-control" name="time" id="phone" format="%H:%M"  placeholder="Appointment Time">
+            <div class="validate"></div>
+          </div>
+        <div class="mb-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
+        </div>
+        <div class="text-center"><button type="submit" >Book Test</button></div>
+      </form>
+
+    </div>
+  </section>
+  <!-- End Appointment Section -->
+
+
+
+<%- include("partials/footer") -%>

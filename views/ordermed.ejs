@@ -1,0 +1,55 @@
+<%- include("partials/loggedinheader") -%>
+
+
+
+<section id="appointment" class="appointment section-bg">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Order medicines</h2>
+      </div>
+      <div class="section-title">
+        <h2>Order Medicines</h2>
+      </div>
+
+      <form action="/ordermed" method="POST" role="form" class="php-email-form">
+        <div class="row">
+          <div class="col-md-12 form-group mt-3">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-12 form-group mt-3">
+            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-12 form-group mt-3">
+            <select name="hospital" id="department" class="form-select">
+              <option value="">Select Hospital</option>
+              <option value="Apollo">Apollo</option>
+              <option value="Yashodha">Yashodha</option>
+            </select>
+            <div class="validate"></div>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="medicines" rows="3" placeholder="Medicines  eg:'Dolo-650: 1strip,cetrizine: 2strips.'"></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="address" rows="3" placeholder="Address  eg:'flat no:501,mm paradise,kommadi,vishakapatnam,530048.'"></textarea>
+            <div class="validate"></div>
+          </div>
+        <div class="mb-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
+        </div>
+        <div class="text-center"><button type="submit" >Order Medicines</button></div>
+      </form>
+
+    </div>
+  </section>
+  <!-- End medicines Section -->
+
+
+
+<%- include("partials/footer") -%>
